@@ -1,0 +1,91 @@
+html
+
+body{
+	background:url(pic/treneripozadina.png) fixed center;
+	background-size:100% 100%;
+    padding:100px 100px;
+
+}
+table tr[summary~="dani"]
+{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+
+*[title~="mc"]
+{
+  background-color: red;
+  font-weight:bold;
+  color: white;
+}
+*[title~="lc"]
+{
+  background-color: green;
+  font-weight:bold;
+  color: white;
+}
+*[title~="bb"]
+{
+  background-color: blue;
+  font-weight:bold;
+  color: white;
+}
+*[title~="cm"]
+{
+  background-color: orange;
+  font-weight:bold;
+  color: white;
+}
+*[title~="day"]
+{
+  background-color: yellow;
+  font-weight:bold;
+  color: black;
+}
+
+#tabela{
+	margin-right: auto;
+	margin-left:auto;
+	width: 80%;	
+}
+
+table{
+	text-align: center;
+	width: 80%;
+	height: auto;
+	margin-top: 10%;
+}
+table td{
+	padding: 15px 10px;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: Impact, Charcoal, sans-serif;
+	color:white;
+}
+.lista{
+	font-size: 20px;
+	color: white;
+	text-align: left;
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: lighter;
+	text-align: justify;
+	width: 60%;
+	padding: 5% 15%;
+}
+#mc{
+	color: red;
+}
+#lc{
+	color: green;
+}
+#cm{
+	color: orange;
+}
+#bb{
+	color: blue;
+}
